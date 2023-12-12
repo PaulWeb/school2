@@ -126,7 +126,7 @@ const EditClassDialog: FC<EditClassDialogProps> = ({ rowData, onSave, onClose })
             TransitionProps={{ onEntered: handleEntered }}
             open={true}
         >
-            <DialogTitle>Save class?</DialogTitle>
+            <DialogTitle>Save class data?</DialogTitle>
             <DialogContent dividers>
                 {classData?.nodeId ?? ""} <br/>
                 {classData?.id ?? ""} <br/>
